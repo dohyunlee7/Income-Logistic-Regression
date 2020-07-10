@@ -1,0 +1,13 @@
+---
+title: "Logistic Regression for Income"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+
+#read in dataset
+income <- read.csv("/Users/Dohyun/Desktop/projects/Income-Logistic-Regression/income.csv")
+```
